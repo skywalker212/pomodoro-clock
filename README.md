@@ -10,6 +10,6 @@ I have to fulfill these [User Stories](https://en.wikipedia.org/wiki/User_story)
   - I can reset the clock for my next pomodoro.  
   - I can customize the length of each pomodoro.  
 
-Open a new issue if you find any issues or bugs or even is you want to add new functionality and contribute.  
+Open a new issue if you find any issues or bugs or even if you want to add new functionality and contribute.  
 
 PEACE  

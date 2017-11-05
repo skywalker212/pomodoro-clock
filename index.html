@@ -17,8 +17,46 @@
 <body>
   <div class="container">
     <h1 class="text-center header">Pomodoro Clock</h1>
+    <h1 class="text-center quote">Work Hard - Session Running</h1>
+    <div class="row reset">
+      <div class="col-md-6 reset-session text-center">
+        <div class="label">
+          Session Interval
+        </div>
+        <div class="set-int">
+          <button type="add" class="ses-add" name="add">+</button> 1 <button type="sub" class="ses-sub" name="sub">-</button>
+        </div>
+      </div>
+      <div class="col-md-6 reset-break text-center">
+        <div class="label">
+          Break Interval
+        </div>
+        <div class="set-int">
+          <button type="add" class="brk-add" name="add">+</button> 1 <button type="sub" class="brk-sub" name="sub">-</button>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="circle">
+        <div class="countdown">
+          <p class="text-center counttext">25:00</p>
+        </div>
+        <div class="hand-block">
+          <div class="hand">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reset text-center">
+      <button type="reset" name="reset" class="resetbtn btn btn-info">Reset</button>
+    </div>
   </div>
 </body>
+
+<footer class="container text-center footer">
+  <p class="footerp" style="margin-top:30px; color:white; font-size:15px">made with <span style="color:red">&#9829</span> by <a href="https://freecodecamp.com/skywalker212" style="text-decoration:none" target="_blank">Akash</a></p>
+</footer>
+
 <script type="text/javascript" src="js/script.js">
 </script>
 

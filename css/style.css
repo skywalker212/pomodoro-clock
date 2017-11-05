@@ -4,7 +4,112 @@ body {
 
 .header {
   font-family: 'Roboto Mono';
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 20px;
+  color: rgb(66, 147, 233);
+}
+
+.quote {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #dbdbdb;
+}
+
+.reset {
+  margin-top: 40px;
+  font-family: Roboto;
+  color: rgb(80, 200, 92);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.reset-session {
+  padding-left: 20%;
+}
+
+.reset-break {
+  padding-right: 20%;
+}
+
+.ses-add, .ses-sub, .brk-add, .brk-sub {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: rgb(184, 183, 183);
+}
+
+.ses-add:focus, .ses-sub:focus, .brk-add:focus, .brk-sub:focus {
+  outline: none;
+}
+
+.set-int {
+  color: rgb(204, 204, 204);
+}
+
+.circle {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin-top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: rgb(152, 152, 152);
+  box-shadow: 8px 8px 6px #343434;
+}
+
+.countdown {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgb(108, 108, 108);
+  border-radius: 20%;
+  z-index: 1;
+}
+
+.counttext {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Roboto;
+  color: rgb(238, 238, 238);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.hand-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hand {
+  height: 40%;
+  left: 49%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  width: 2%;
+  background-color: rgb(74, 74, 74);
+}
+
+.resetbtn {
+  font-size: 15px;
+  font-weight: bold;
   color: white;
+}
+
+.resetbtn:focus, .resetbtn:active {
+  outline: none !important;
+  box-shadow: none;
 }
