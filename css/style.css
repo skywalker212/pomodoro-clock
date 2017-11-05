@@ -1,0 +1,10 @@
+body {
+  background: #555555;
+}
+
+.header {
+  font-family: 'Roboto Mono';
+  font-size: 50px;
+  margin-top: 20px;
+  color: white;
+}
