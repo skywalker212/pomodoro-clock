@@ -24,7 +24,7 @@
           Session Interval
         </div>
         <div class="set-int">
-          <button type="add" class="ses-add" name="add">+</button> 1 <button type="sub" class="ses-sub" name="sub">-</button>
+          <button type="add" class="ses-add" name="add" onclick="adjusttime('ses-add')">+</button> <span class="sesint"></span> <button type="sub" class="ses-sub" name="sub" onclick="adjusttime('ses-sub')">-</button>
         </div>
       </div>
       <div class="col-md-6 reset-break text-center">
@@ -32,14 +32,14 @@
           Break Interval
         </div>
         <div class="set-int">
-          <button type="add" class="brk-add" name="add">+</button> 1 <button type="sub" class="brk-sub" name="sub">-</button>
+          <button type="add" class="brk-add" name="add" onclick="adjusttime('brk-add')">+</button> <span class="brekint"></span> <button type="sub" class="brk-sub" name="sub" onclick="adjusttime('brk-sub')">-</button>
         </div>
       </div>
     </div>
     <div class="text-center">
       <div class="circle">
         <div class="countdown">
-          <p class="text-center counttext">25:00</p>
+          <button class="counttext" type="pause" name="pause" onclick="changestate()"><span class="countminutes"></span>:<span class="countseconds"></span></button>
         </div>
         <div class="hand-block">
           <div class="hand">
@@ -54,7 +54,7 @@
 </body>
 
 <footer class="container text-center footer">
-  <p class="footerp" style="margin-top:30px; color:white; font-size:15px">made with <span style="color:red">&#9829</span> by <a href="https://freecodecamp.com/skywalker212" style="text-decoration:none" target="_blank">Akash</a></p>
+  <p class="footerp" style="margin-top:30px; color:white; font-size:15px">made with <span style="color:red">&#9829</span> by <a href="https://freecodecamp.com/skywalker212" style="text-decoration:none" target="_blank">Akash Gajjar</a></p>
 </footer>
 
 <script type="text/javascript" src="js/script.js">
