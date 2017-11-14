@@ -94,10 +94,10 @@ body {
 }
 
 .hand {
-  height: 40%;
+  height: 50%;
   left: 49%;
   position: absolute;
-  top: 10%;
+  top: 0%;
   transform-origin: 50% 100%;
   width: 2%;
   background-color: rgb(74, 74, 74);
