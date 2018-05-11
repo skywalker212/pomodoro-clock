@@ -85,6 +85,12 @@ function intervalFun() {
 
 function changestate() {
   paused = !paused;
+  ses = !ses;
+  if(ses==true){
+    $('.quote').html('Take a break, have a KitKat!');
+  }else{
+    $('.quote').html('Work Hard - Session Running');
+  }
 }
 
 function resetthis() {
@@ -97,6 +103,7 @@ function resetthis() {
   $('.hand-block').rotate(0);
   $('.countseconds').html(seconds);
   $('.countminutes').html(minutes);
+  $('.quote').html('');
 }
 
 setInterval(intervalFun, 1000);
